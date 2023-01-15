@@ -1,0 +1,31 @@
+.paginationBar {
+    color: white;
+    text-decoration: none;
+  }
+
+.listofpages {
+    display: flex;
+    flex-direction: row;
+    align-items: end;
+    justify-content: center;
+    list-style: none;
+} 
+
+.pageNumber {
+    background-color: brown;
+    color: white;
+    padding: 10px;
+}
+
+.pageNumber:hover {
+    color: brown;
+    background-color: white;
+    cursor: pointer;
+}
+
+.pageNumber-active {
+    color: brown;
+    background-color: white;
+    cursor: pointer;
+    padding: 10px;
+}

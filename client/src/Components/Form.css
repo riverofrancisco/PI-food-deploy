@@ -1,0 +1,121 @@
+.formContainer {
+  display: flex;
+  flex-direction: row;
+  align-items: start;
+  justify-content: center;
+}
+
+.buttonNormal {
+  color: white;
+  background-color: grey;
+  border: none;
+  cursor: pointer;
+}
+
+.buttonBack {
+  display: flex;
+  align-items: flex-start;
+  justify-self: left;
+  margin-top: 2%;
+
+  background-color: brown;
+  color: whitesmoke;
+  font-size: 150%;
+  font-weight: bolder;
+
+  padding: 1%;
+  padding-top: 0.5%;
+  padding-bottom: 0.5%;
+
+  border-radius: 25%;
+  border: none;
+}
+
+.buttonBack:hover {
+  box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24),0 17px 50px 0 rgba(0,0,0,0.19);
+  background-color: whitesmoke;
+  color: brown;
+  border: brown 1px solid;
+  cursor: pointer;
+
+}
+
+.buttonSubmit {
+  display: flex;
+  align-items: flex-start;
+  justify-self: center;
+  margin: 10px;
+
+  background-color: brown;
+  color: whitesmoke;
+  font-weight: bolder;
+
+  padding: 2%;
+
+  border-radius: 5%;
+  border: none;
+}
+
+.buttonSubmit:enabled:hover {
+  box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24),0 17px 50px 0 rgba(0,0,0,0.19);
+  background-color: whitesmoke;
+  color: brown;
+  border: brown 1px solid;
+  cursor: pointer;
+
+}
+
+.buttonSubmit:disabled {
+  background-color: whitesmoke;
+  color: gray;
+  border: gray 1px solid;
+}
+
+.form-Container {
+  display: grid;
+  grid-template-columns: auto;
+  grid-template-rows: auto;
+  margin-top: 2%;
+
+  background-color: whitesmoke;
+  box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24),0 17px 50px 0 rgba(0,0,0,0.19);
+  border-radius: 20px;
+}
+
+.input-label {
+  display: flex;
+  width: 95%;
+  padding: 5px;
+  margin: 5px;
+  justify-content: space-between;
+}
+
+.imagePreview {
+border: black 1px solid;
+border-style: dashed;
+
+width: 177px;
+height: 100px;
+}
+
+.inputNormal {
+  margin: 3px;
+}
+
+
+.danger {
+    border: red 1px solid;
+}
+
+.img-pequeña{
+    width: 88px;
+    height: 50px;
+  }
+.img-mediana{
+    width: 177px;
+    height: 100px;
+  }
+.img-grande{
+    width: 284px;
+    height: 160px;
+  }
