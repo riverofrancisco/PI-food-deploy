@@ -16,7 +16,7 @@ export default function Welcomepage(){
              Home
             </button>
             </Link>
-            
+
           </div>
 
         </div>

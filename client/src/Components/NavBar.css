@@ -46,6 +46,15 @@
     color: brown;
 }
 
+.authorLink {
+    display: flex;
+    flex-direction: row-reverse;
+    position: fixed;
+    width: 99.7%;
+    margin-top: 1.5cm;
+
+}
+
 .diet {
     display: flex;
     justify-self: left;

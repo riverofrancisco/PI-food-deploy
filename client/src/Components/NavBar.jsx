@@ -78,6 +78,10 @@ export default function Navbar({setOrder, paginate}){
             </div>  
         </nav>
         
+        <div className='authorLink'>
+             <Author/>
+        </div>
+
         <div className='dietSelected'>
         {filterDiets.map(d => {return (<div className='diet' key={d}> {d}</div>)})}
         </div>
