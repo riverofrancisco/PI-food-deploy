@@ -80,7 +80,7 @@ export default function Navbar({setOrder, paginate}){
         </nav>
         
         <div className='authorLink'>
-             <Author/>
+             <Author />
         </div>
 
         <div className='dietSelected'>
