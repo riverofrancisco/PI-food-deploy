@@ -207,7 +207,7 @@ const onSubmit = (event) => {
   event.preventDefault();
   console.log(input)
   
-  fetch(`${BACKEND_PATH}/recipes`,{
+  fetch(`https://pi-food-deploy-production-7b0f.up.railway.app/recipes`,{
     method: 'POST',
     body: JSON.stringify(input),
     headers: {
