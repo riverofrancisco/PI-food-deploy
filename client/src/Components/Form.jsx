@@ -1,7 +1,7 @@
 import { React, useState, useEffect } from 'react';
 import { useDispatch, useSelector } from "react-redux";
 import { useHistory } from 'react-router-dom';
-import { getDiets, getRecipes } from '../actions/actions';
+import { getDiets, getRecipes, BACKEND_PATH } from '../actions/actions';
 import './Form.css'
 
 
@@ -207,7 +207,7 @@ const onSubmit = (event) => {
   event.preventDefault();
   console.log(input)
   
-  fetch('http://localhost:3001/recipes',{
+  fetch(`${BACKEND_PATH}/recipes`,{
     method: 'POST',
     body: JSON.stringify(input),
     headers: {
