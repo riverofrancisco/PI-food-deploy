@@ -4,6 +4,7 @@ import SearchBar from './SearchBar';
 import './NavBar.css'
 import { useDispatch, useSelector } from 'react-redux';
 import { filterByDiet, getDiets, getRecipes, alphabeticOrder, healthScoreOrder } from '../actions/actions';
+import Author from './AuthorLink';
 
 
 export default function Navbar({setOrder, paginate}){
