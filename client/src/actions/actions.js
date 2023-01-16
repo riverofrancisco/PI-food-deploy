@@ -1,4 +1,4 @@
-export const BACKEND_PATH = 'http://localhost:3001';
+export const BACKEND_PATH = 'pi-food-deploy-production-7b0f.up.railway.app';
 
 
 export const getRecipes = () => { 
