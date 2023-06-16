@@ -134,7 +134,7 @@ router.get('/oldway/:idReceta', async (req, res) => {
 
     try {
         if(typeof parseInt(idReceta) === 'number') {
-            const response = await fetch(`${API_PATH}/${idReceta}/information?apiKey=${MY_APIKEY_2}`);
+            const response = await fetch(`${API_PATH}/${idReceta}/information?apiKey=${MY_APIKEY}`);
             const data = await response.json();
                 res.status(200).json({
                     id: data.id,
