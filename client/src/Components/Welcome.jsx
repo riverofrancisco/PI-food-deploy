@@ -10,7 +10,7 @@ export default function Welcomepage(){
             <div className="content">
             {alert("This is not a Responsive App")}
             
-            <h1 className='WelcomeTitle'>Food API</h1>
+            <h1 className='WelcomeTitle'>Food App</h1>
 
             <Link to='/home'>
             <button className="button">
