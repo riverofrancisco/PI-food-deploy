@@ -1,14 +1,12 @@
 .logoAuthor {
     display: block;
     align-self: flex-end;
-    width: 50px;
+    width: 45px;
     border-radius: 10px;
-    background-color: whitesmoke ;
-
+    margin: 2px;
   }
 
 .logoAuthor:hover {
-    box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24),0 17px 50px 0 rgba(0,0,0,0.19);
     cursor: pointer;
-    width: 51px;
+    width: 46px;
 }
